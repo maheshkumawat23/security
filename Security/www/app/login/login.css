@@ -1,0 +1,38 @@
+.item{
+	/*padding:5px;*/
+}
+ul.rating li {
+  display: inline;
+  border: 0px;
+  background: none;
+  padding: 0px 16px;
+}
+ul.rating li i {
+  font-size: 25px;
+  color: #ffc900;
+}
+h3 {
+    padding:10px;
+    text-align:center;
+}
+.ratingLayout{
+ margin-top:3%;
+ margin:auto;
+ padding-top: 5px;
+}
+.button.button-positive{
+	background-color: #ffc900;
+}
+.button.button-positive.activated{
+	background-color: #ffc900;
+}
+.bar .title{
+	right:0px !important;
+	left:0px !important;
+}
+.signup-background {
+    background-image: url('../../assets/images/dailycleaningservice-beeshive.in.jpg');
+  	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}

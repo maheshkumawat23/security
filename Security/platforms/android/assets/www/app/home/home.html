@@ -1,0 +1,15 @@
+<ion-nav-view>
+    <ion-header-bar class="bar-energized">
+       <img src="img/logo.png" width="40px" height="40px" style="margin-top:-2px"> <h1 style="text-align:center;color:black" align="center" class="title">Security Feedback</h1>
+		
+      </ion-header-bar>
+      <ion-content class="has-header" scroll="true" >
+        <h3 style="text-align:center;color:rgb(31,43,98)"> <u>Saftey First Pledge</u> </h3>
+        <ion-item class="item-text-wrap" style="padding:10px;color:rgb(31,43,98)" ng-repeat="item in home.data">
+                <b>{{item.text}}</b>
+      </ion-item>
+      <button  class="button button-block button-energized"  style="color:rgb(31,43,98)" ng-click="home.pledge()"><b>I Pledge</b></button>
+      <h5 style="text-align:center;color:rgb(31,43,98)"><b>TCS Bangalore Emergency Number: 080-67248888</b></h5>
+      <h5 style="text-align:center;color:rgb(31,43,98)"><b>Please save this number/Share with immediate family members</b></h5>
+      </ion-content>
+    </ion-nav-view>
